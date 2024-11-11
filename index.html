@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicone.png" />
+    <title>Tusharpatowary - Web Developer</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" width="124" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#details">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-secondary px-4 mx-4"
+                href="#contact"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <!-- HTML Code -->
+    <header class="header position-relative mt-6 overflow-hidden">
+      <!-- Carousel Start -->
+      <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#headerCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star position-absolute"
+            />
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star-2 position-absolute"
+            />
+            <div class="container position-relative z-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mt-6">
+                    <h1 class="xl-text">
+                      <span class="text-primary">Transform </span> Your Digital
+                      Space
+                    </h1>
+                    <p class="lead mb-4">
+                      Unlock the potential of your website with clean,
+                      functional, and visually captivating designs. Let’s build
+                      a platform that engages and converts.
+                    </p>
+                    <a href="#introduction" class="btn btn-primary btn-lg m-2"
+                      >More Details</a
+                    >
+                    <a
+                      href="#contact"
+                      class="btn btn-outline-secondary btn-lg m-2"
+                      >Contact Me</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="image-container">
+                    <img src="images/slide1.png" alt="" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star position-absolute"
+            />
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star-2 position-absolute"
+            />
+            <div class="container position-relative z-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mt-6">
+                    <h1 class="xl-text">
+                      <span class="text-primary">Tailored </span> for Your Brand
+                    </h1>
+                    <p class="lead mb-4">
+                      Every website should tell a story. I specialize in
+                      creating web solutions that align with your brand identity
+                      and speak to your audience.
+                    </p>
+                    <a href="#introduction" class="btn btn-primary btn-lg m-2"
+                      >More Details</a
+                    >
+                    <a
+                      href="#contact"
+                      class="btn btn-outline-secondary btn-lg m-2"
+                      >Contact Me</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="image-container">
+                    <img src="images/slide1.png" alt="" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star position-absolute"
+            />
+            <img
+              src="images/decoration-star.svg"
+              alt=""
+              class="decoration-star-2 position-absolute"
+            />
+            <div class="container position-relative z-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mt-6">
+                    <h1 class="xl-text">
+                      Empower
+                      <span class="text-primary">Your Online</span> Presence
+                    </h1>
+                    <p class="lead mb-4">
+                      From concept to launch, I bring your vision to life with
+                      seamless functionality, modern design, and user-centered
+                      experiences.
+                    </p>
+                    <a href="#introduction" class="btn btn-primary btn-lg m-2"
+                      >More Details</a
+                    >
+                    <a
+                      href="#contact"
+                      class="btn btn-outline-secondary btn-lg m-2"
+                      >Contact Me</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="image-container">
+                    <img src="images/slide1.png" alt="" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#headerCarousel"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-arrow-circle-left fa-3x text-secondary"></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#headerCarousel"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-arrow-circle-right fa-3x text-secondary"></i>
+        </button>
+      </div>
+      <!-- Carousel End -->
+    </header>
+
+    <!-- Stats -->
+    <section id="stats" class="stats container">
+      <div class="row my-6">
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="20"></h2>
+          <p>Happy Clients</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="50"></h2>
+          <p>Website Build</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="40"></h2>
+          <p>Good Reviews</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="30"></h2>
+          <p>Case Studies</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section id="introduction" class="intro bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <h2>
+              Designing <span class="text-secondary">Websites</span> That Work
+              for You
+            </h2>
+            <p class="fs-5">
+              Whether it's a personal portfolio or a company website, I bring
+              your vision to life with modern, responsive, and user-centered web
+              design. Let’s create a digital space that captivates and engages
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details 1 -->
+    <section
+      id="details"
+      class="details position-relative my-6 overflow-hidden"
+    >
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container d-flex justify-content-center">
+              <img src="images/slide2.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4">
+              <h2 class="mb-4">
+                Crafting <span class="text-primary">Unique Websites</span> for
+                Every Brand
+              </h2>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    I craft websites uniquely tailored to your goals and
+                    style—no two are alike
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Every detail counts, from layout to interaction, for a
+                    seamless, captivating experience
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    I design sites that embody your brand’s vision, capturing
+                    its essence and voice
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    " Built for performance and elegance, my websites shine
+                    beautifully on any device
+                  </p>
+                </li>
+              </ul>
+              <a href="article.html" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="text-container text-center text-lg-start">
+              <h2><span class="text-secondary">Services</span> that I offer</h2>
+              <p>
+                I craft custom websites that reflect your vision, ensuring
+                seamless user experiences and responsive designs. From concept
+                to execution, I focus on performance and detail to deliver
+                results that truly stand out
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row mb-4">
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-rocket fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Project Analysis & Planning</p>
+              </div>
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-clock fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Design & UX</p>
+              </div>
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-comments fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Consultancy</p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-tools fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Website Building</p>
+              </div>
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-chart-pie fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">SEO</p>
+              </div>
+              <div
+                class="col-md-4 d-flex flex-column align-items-center text-center"
+              >
+                <i class="fas fa-chart-bar fa-4x text-secondary mb-2"></i>
+                <p class="fs-5 fw-bold">Website Maintenance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details 2 -->
+    <section class="details-2 position-relative my-6 overflow-hidden">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-container text-center text-lg-start mb-4">
+              <h2>
+                Elevate Your Online Presence for
+                <span class="text-primary">Maximum Impact</span>
+              </h2>
+              <p>
+                A well-crafted website is more than just a digital space—it’s a
+                powerful tool that drives engagement, enhances user experience,
+                and reflects your brand’s identity. I specialize in designing
+                websites that not only look great but also function flawlessly,
+                ensuring a seamless experience for your audience. Whether you’re
+                looking to attract more visitors or create a lasting impression,
+                I’m here to bring your vision to life.
+              </p>
+              <a href="article.html" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container d-flex justify-content-center">
+              <img src="images/service-sec.png" alt="" class="iimg-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Quote -->
+    <section class="get-quote bg-light py-6 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <h4 class="lh-base">
+              I bring together expert design and development to exceed your
+              expectations. With a keen eye for detail and a focus on
+              innovation, I deliver websites that not only meet but surpass your
+              goals, creating a lasting impact on your users.
+            </h4>
+            <a href="#contact" class="btn btn-secondary btn-lg">Get Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects py-6">
+      <div class="container">
+        <h2 class="text-center pb-4">
+           <span class="text-secondary">Projects</span> I’ve Worked On
+        </h2>
+        <!-- Projects Row 1 -->
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/project1.png"
+                alt="E-Commerce Website Development"
+              />
+              <div class="card-body">
+                <h5 class="card-title">E-Commerce Website Development</h5>
+                <p class="card-text">
+                  Built a responsive and user-friendly e-commerce site,
+                  enhancing customer experience and boosting conversions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/project2.png"
+                alt="Portfolio Website for Freelancers"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Website for Freelancers</h5>
+                <p class="card-text">
+                  Designed a sleek portfolio website showcasing a freelancer’s
+                  work with a modern, engaging layout.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="images/project3.jpg" alt="Corporate Website Overhaul" />
+              <div class="card-body">
+                <h5 class="card-title">Corporate Website Overhaul</h5>
+                <p class="card-text">
+                  Revamped a corporate website to provide a clean, professional,
+                  and user-centric digital presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects Row 2 -->
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/screen.png"
+                alt="Blog Website with Custom CMS"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blog Website with Custom CMS</h5>
+                <p class="card-text">
+                  Developed a custom CMS-driven blog website for easy content
+                  management and improved SEO performance.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/project2.png"
+                alt="Non-Profit Organization Website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Non-Profit Organization Website</h5>
+                <p class="card-text">
+                  Created an accessible and engaging website for a non-profit,
+                  helping them connect with supporters and manage donations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img
+                src="images/project1.png"
+                alt="Landing Page for Product Launch"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Landing Page for Product Launch</h5>
+                <p class="card-text">
+                  Designed a high-conversion landing page for a product launch,
+                  emphasizing key features and clear calls-to-action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials bg-light py-6">
+      <div id="testimonialCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-1.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “Tushar exceeded our expectations with his attention to detail
+                and ability to bring our vision to life. The website design is
+                clean, modern, and user-friendly. Highly recommend his services
+                for anyone looking for quality web development.”
+              </p>
+              <div class="fw-bold fs-5 mt-4">Marlene Visconte</div>
+              <div>General Manager - Scouter</div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-2.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “Tushar’s ability to understand our needs and create a seamless,
+                functional website was impressive. His technical skills,
+                combined with his creativity, made the entire process smooth and
+                enjoyable. We couldn’t be happier with the result!”
+              </p>
+              <div class="fw-bold fs-5 mt-4">John Spiker</div>
+              <div>Team Leader - Vanquish</div>
+            </div>
+          </div>
+          <!-- Slide 1 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-3.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “Working with Tushar was a great experience. He was attentive to
+                our requirements, always kept us in the loop, and delivered a
+                website that perfectly reflects our brand. His dedication and
+                professionalism truly set him apart.”
+              </p>
+              <div class="fw-bold fs-5 mt-4">Stella Virtuoso</div>
+              <div>Design Chief - Bikegirl</div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-arrow-circle-left fa-3x text-secondary"></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-arrow-circle-right fa-3x text-secondary"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact my-6 position-relative">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6 d-none d-md-block">
+            <div class="image-container">
+              <img src="images/contact.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2>Contact Me For A Quote</h2>
+
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="Enter message"
+                    rows="8"
+                  ></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                  <input
+                    type="submit"
+                    value="Send"
+                    class="btn btn-primary btn-block"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6>About Tusharpatowary</h6>
+            <p>
+              A web developer with a passion for creating engaging digital experiences. Let’s build something amazing together!
+            </p>
+          </div>
+          <div class="col-md-4 my-3">
+            <!-- <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#">Icon Library</a>,
+                <a href="#">Illustrations</a>
+              </li>
+              <li>
+                Menu: <a href="#">Home</a>, <a href="#details">Details</a>,
+                <a href="#services">Services</a>, <a href="#contact">Contact</a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-dark mx-2"></i>
+              </a>
+            </div>
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@site.com"
+                ><strong>contact@tusharpatowary.com</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="to-top" class="to-top-btn">
+      <img src="images/up-arrow.png" alt="" />
+    </button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
