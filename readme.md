@@ -1,4 +1,4 @@
-# Tusharpatowary - Portfolio website using Bootstrap & SCSS
+# Portfolio website using Bootstrap & SCSS
 
 This project showcases my web development skills through a portfolio project. Check out my portfolio here: [Live link](https://bootstrap-tusharpatowary.netlify.app/)
 
