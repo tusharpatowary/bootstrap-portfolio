@@ -4,7 +4,7 @@ This project showcases my web development skills through a portfolio project. Ch
 
 ## Preview 
 
-<img src="./images/preview.gif" />
+<img src="./images/bootstrap-preview.gif" />
 
 ## About Me
 Hello! I'm **Tushar Patowary**, a passionate **Full-Stack Web Developer** with expertise in creating modern, responsive websites and applications. I specialize in building intuitive user interfaces and delivering seamless user experiences. In addition to my development skills, I focus on performance optimization, accessibility, and best practices for web security.
