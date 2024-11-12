@@ -1,8 +1,17 @@
-# Portfolio Website
+# Tusharpatowary - Portfolio website using Bootstrap & SCSS
 
-Bootstrap website for a company that creates and customizes office spaces. It could be used for just about any kind of business. It is a very light business theme with a clean design.
+This project showcases my web development skills through a portfolio project. Check out my portfolio here: [Live link](https://bootstrap-tusharpatowary.netlify.app/)
+
+## Preview 
 
 <img src="./images/Preview.png" />
+
+## About Me
+Hello! I'm **Tushar Patowary**, a passionate **Full-Stack Web Developer** with expertise in creating modern, responsive websites and applications. I specialize in building intuitive user interfaces and delivering seamless user experiences. In addition to my development skills, I focus on performance optimization, accessibility, and best practices for web security.
+
+## Tech Stack
+- **Frontend**: HTML5, CSS3, Bootstrap, SCSS
+- **Version Control**: Git
 
 ## Features
 
@@ -38,4 +47,11 @@ To watch your Sass files for changes, run:
 npm run sass:watch
 ```
 
+## Contributing
+
+If you want to contribute to the project, feel free to fork the repository, create a branch, and submit a pull request. Please make sure to follow the coding standards and write meaningful commit messages.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
